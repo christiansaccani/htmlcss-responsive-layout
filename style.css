@@ -300,7 +300,17 @@ nav {
     margin-bottom: 25px;
 }
 
-.aboutus-info {
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 45px;
+
+    width: 100%;
+    height: auto;
+}
+
+.about-us-info {
     display: flex;
     flex-direction: column;
 
@@ -406,4 +416,14 @@ nav {
         width: calc(100% / 2 - 1em);
     }
 
+    /* ------------------------- */
+
+    .aboutus-section {
+        display: flex;
+        flex-direction: row;
+    
+        gap: 80px;
+
+        margin-bottom: 105px;
+    }
 }
