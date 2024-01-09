@@ -100,6 +100,11 @@ nav {
 
 /* ------------------------- */
 
+.purplebg {
+    width: 100%;
+    background-color: #9792e4;
+}
+
 .sp-section {
     display: flex;
     flex-direction: column;
@@ -449,5 +454,49 @@ nav {
 
     /* ------------------------- */
 
-    
+    .sp-section {
+        flex-direction: row;
+        align-items: flex-end;
+
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .testimonial-section {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .t-card {
+        gap: 60px;
+    }
+
+    /* ------------------------- */
+
+    .b-cards {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .b-card {
+        width: calc(100% / 3 - 1em);
+    }
+
+    /* ------------------------- */
+
+    .aboutus-section {
+        max-width: 1140px;
+        margin: 0 auto;
+
+        gap: 80px;
+    }
+
+    .about-us-text {
+        align-self: flex-start;
+    }
+
+    .about-us-info {
+        align-self: flex-end;
+        width: calc(100% / 3);
+    }
 }
