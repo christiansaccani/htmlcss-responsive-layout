@@ -231,3 +231,35 @@ nav {
 }
 
 /* ------------------------- */
+
+.aboutus-section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 45px;
+
+    width: 100%;
+    height: auto;
+    padding: 80px 30px;
+
+    background-color: white;
+}
+
+.aboutus-section p:first-of-type {
+    margin-bottom: 25px;
+}
+
+.aboutus-info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 45px;
+
+    width: 100%;
+    height: auto;
+
+    background-color: white;
+}
+
+/* ------------------------- */
+
