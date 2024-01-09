@@ -263,3 +263,34 @@ nav {
 
 /* ------------------------- */
 
+.get-started-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px; /* da rimuovere */
+
+    width: 100%;
+    height: auto;
+    padding: 60px 30px;
+
+    background-color: #9792e4;
+    color: white;
+}
+
+/* ------------------------- */
+
+.last-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 65px;
+
+    width: 100%;
+    height: auto;
+    padding: 40px 25px 30px;
+
+    background-color: #333333;
+    color: white;
+}
