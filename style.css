@@ -192,3 +192,42 @@ nav {
     background-color: #9792e4;
     color: white;
 }
+
+/* ------------------------- */
+
+.benefits-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+
+    width: 100%;
+    height: auto;
+    padding: 70px 25px 60px;
+
+    background-color: #9792e4;
+    color: white;
+}
+
+.benefits-section h2 {
+    margin-bottom: 30px;
+}
+
+.b-card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+
+    width: 100%;
+    height: auto;
+    padding: 40px 30px 30px;
+
+    border-radius: 20px;
+
+    background-color: white;
+    color: #9792e4;
+}
+
+/* ------------------------- */
