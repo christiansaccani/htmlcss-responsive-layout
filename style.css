@@ -222,6 +222,17 @@ nav {
     background-color: red;
 }
 
+.t-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+
+    width: auto;
+    height: auto;
+}
+
 /* ------------------------- */
 
 .benefits-section {
@@ -354,4 +365,24 @@ nav {
     .card {
         width: calc(100% / 3 - 1em);
     }
+
+    /* ------------------------- */
+
+    .t-card {
+        display: flex;
+        flex-direction: row;
+    
+        gap: 30px;
+    
+        width: 100%;
+        height: auto;
+    }
+
+    .t-text {
+        align-items: flex-start;
+    }
+
+    /* ------------------------- */
+
+    
 }
