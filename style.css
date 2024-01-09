@@ -250,6 +250,17 @@ nav {
     color: white;
 }
 
+.b-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        gap: 30px;
+    
+        width: 100%;
+        height: auto;
+}
+
 .benefits-section h2 {
     margin-bottom: 30px;
 }
@@ -348,7 +359,7 @@ nav {
 
 /* ---------- tablet section ----------*/
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     
     .cards-container {
         flex-flow: row wrap;
@@ -384,5 +395,15 @@ nav {
 
     /* ------------------------- */
 
-    
+    .b-cards {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+
+        gap: 20px;
+    }
+
+    .b-card {
+        width: calc(100% / 2 - 1em);
+    }
+
 }
