@@ -432,6 +432,11 @@ nav {
 
         margin-bottom: 105px;
     }
+
+    .about-us-info {
+        align-self: flex-end;
+        width: calc(100% / 3 * 1.5);
+    }
 }
 
 /* ---------- desktop section ----------*/
@@ -496,7 +501,6 @@ nav {
     }
 
     .about-us-info {
-        align-self: flex-end;
         width: calc(100% / 3);
     }
 }
