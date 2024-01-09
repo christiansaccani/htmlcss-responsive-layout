@@ -10,6 +10,8 @@ nav {
     position: fixed;
     right: 0;
     left: 0;
+
+    background-color: #0084fd;
 }
 
 .nav-container {
@@ -21,7 +23,6 @@ nav {
     height: 70px;
     padding: 0 25px;
 
-    background-color: #0084fd;
     color: white;
 }
 
@@ -369,7 +370,7 @@ nav {
 
 /* ---------- tablet section ----------*/
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) /*and (max-width: 768px)*/ {
     
     .cards-container {
         flex-flow: row wrap;
@@ -426,4 +427,27 @@ nav {
 
         margin-bottom: 105px;
     }
+}
+
+/* ---------- desktop section ----------*/
+
+@media screen and (min-width: 769px) {
+    .nav-container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .cards-container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .double-card {
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    /* ------------------------- */
+
+    
 }
