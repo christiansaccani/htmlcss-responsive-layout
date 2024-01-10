@@ -304,13 +304,12 @@ nav {
     border-radius: 50%;
 
     overflow: hidden;
-    position: relative;
 }
 
 .t-card .profile {
     height: 200px;
 
-    position: absolute;
+    position: relative;
     left: -25%;
 }
 
@@ -556,6 +555,7 @@ nav {
 
 .get-started-section .gsb {
     width: 80%;
+    max-width: 300px;
 
     padding: 10px 15px;
     border-radius: 50px;
@@ -657,6 +657,8 @@ nav {
         flex-direction: row;
     
         gap: 80px;
+        padding-left: 70px;
+        padding-right: 70px;
 
         margin-bottom: 105px;
     }
@@ -664,6 +666,16 @@ nav {
     .about-us-info {
         align-self: flex-end;
         width: calc(100% / 3 * 1.5);
+    }
+
+    .get-started-section .beta-info {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .last-infos {
+        padding-left: 170px;
+        padding-right: 170px;
     }
 }
 
@@ -730,5 +742,15 @@ nav {
 
     .about-us-info {
         width: calc(100% / 3);
+    }
+
+    .get-started-section .beta-info {
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+
+    .last-infos {
+        padding-left: 600px;
+        padding-right: 600px;
     }
 }
