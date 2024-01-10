@@ -447,6 +447,17 @@ nav {
     height: auto;
 }
 
+.about-us-text h2 {
+    font-size: 50px;
+    color: #9792e4;
+}
+
+.about-us-text p {
+    line-height: 2em;
+    font-weight: 600;
+}
+
+
 .about-us-info {
     display: flex;
     flex-direction: column;
@@ -466,6 +477,52 @@ nav {
     border-radius: 50%;
 
     background-color: red;
+}
+
+.about-us-info .square {
+    height: 200px;
+    width: 200px;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.about-us-info .profile {
+    height: 200px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-info .fa-quote-left {
+    position: absolute;
+    left: 42%;
+    z-index: 2;
+
+    font-size: 70px;
+    color: #9792e4;
+}
+
+.about-us-info p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #9792e4;
+}
+
+.about-us-info a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 220px;
+
+    padding: 10px 15px;
+    border-radius: 50px;
+
+    background-color: #9792e4;
+    color: white;
+    text-decoration: none;
 }
 
 /* ------------------------- */
