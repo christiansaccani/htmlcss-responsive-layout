@@ -51,10 +51,7 @@ nav {
     font-size: 20px;
 }
 
-.nav-container .menu a {
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
+.menu .inside-menu {
     display: none;
 }
 
@@ -297,20 +294,11 @@ nav {
     color: white;
 }
 
-.t-card .square {
+.t-card .profile {
     height: 200px;
     width: 200px;
 
     border-radius: 50%;
-
-    overflow: hidden;
-}
-
-.t-card .profile {
-    height: 200px;
-
-    position: relative;
-    left: -25%;
 }
 
 .t-text {
@@ -484,12 +472,12 @@ nav {
 
     border-radius: 50%;
 
-    overflow: hidden;
     position: relative;
 }
 
 .about-us-info .profile {
     height: 200px;
+    border-radius: 50%;
 
     position: relative;
     z-index: 1;
@@ -497,7 +485,7 @@ nav {
 
 .about-us-info .fa-quote-left {
     position: absolute;
-    left: 42%;
+    right: -5%;
     z-index: 2;
 
     font-size: 70px;
@@ -637,6 +625,10 @@ nav {
         align-items: flex-start;
     }
 
+    .t-cit {
+        text-align: left;
+    }
+
     /* ------------------------- */
 
     .b-cards {
@@ -666,16 +658,6 @@ nav {
     .about-us-info {
         align-self: flex-end;
         width: calc(100% / 3 * 1.5);
-    }
-
-    .get-started-section .beta-info {
-        padding-left: 110px;
-        padding-right: 110px;
-    }
-
-    .last-infos {
-        padding-left: 170px;
-        padding-right: 170px;
     }
 }
 
@@ -742,15 +724,26 @@ nav {
 
     .about-us-info {
         width: calc(100% / 3);
+        align-self: flex-start;
     }
 
-    .get-started-section .beta-info {
-        padding-left: 500px;
-        padding-right: 500px;
+    /* ------------------------- */
+
+    .menu i {
+        display: none;
     }
 
-    .last-infos {
-        padding-left: 600px;
-        padding-right: 600px;
+    .menu .inside-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 30px;
+    }
+
+    .menu .inside-menu a {
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
     }
 }
