@@ -8,12 +8,12 @@
 
 h2 {
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 h3 {
     font-size: 23px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 nav {
@@ -358,6 +358,10 @@ nav {
     color: white;
 }
 
+.benefits-section h2 {
+    text-align: center;
+}
+
 .b-cards {
         display: flex;
         flex-direction: column;
@@ -389,6 +393,31 @@ nav {
     color: #9792e4;
 }
 
+.b-card .number {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.b-card .b-text {
+    line-height: 2em;
+    color: #5a6e7f;
+}
+
+.more {
+    background-color: #9792e4;
+    color: white;
+
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+
+    max-width: 140px;
+
+    border-radius: 50px;
+}
 /* ------------------------- */
 
 .aboutus-section {
