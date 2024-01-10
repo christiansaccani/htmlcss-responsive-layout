@@ -669,16 +669,6 @@ nav {
         align-self: flex-end;
         width: calc(100% / 3 * 1.5);
     }
-
-    .get-started-section .beta-info {
-        padding-left: 110px;
-        padding-right: 110px;
-    }
-
-    .last-infos {
-        padding-left: 170px;
-        padding-right: 170px;
-    }
 }
 
 /* ---------- desktop section ----------*/
@@ -765,15 +755,5 @@ nav {
         font-size: 15px;
         text-decoration: none;
         color: white;
-    }
-
-    .get-started-section .beta-info {
-        padding-left: 500px;
-        padding-right: 500px;
-    }
-
-    .last-infos {
-        padding-left: 600px;
-        padding-right: 600px;
     }
 }
