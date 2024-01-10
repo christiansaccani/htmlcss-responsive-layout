@@ -12,7 +12,7 @@ h2 {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 27px;
     font-weight: 700;
 }
 
@@ -540,6 +540,39 @@ nav {
 
     background-color: #9792e4;
     color: white;
+
+    text-align: center;
+}
+
+.get-started-section h2 {
+    font-size: 55px;
+    color: #fdc15f;
+}
+
+.get-started-section .beta-info {
+    font-size: 17px;
+    line-height: 1.5em;
+}
+
+.get-started-section .gsb {
+    width: 80%;
+
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+
+    color: #9792e4;
+    background-color: white;
+    text-decoration: none;
+}
+
+.get-started-section .copyright {
+    font-size: 13px;
+}
+
+.get-started-section .copyright a {
+    color: white;
 }
 
 /* ------------------------- */
@@ -557,6 +590,13 @@ nav {
 
     background-color: #333333;
     color: white;
+
+    text-align: center;
+    font-size: 15px;
+}
+
+.last-infos a {
+    color: #9792e4;
 }
 
 /* --------------- MEDIA SECTION ---------------*/
