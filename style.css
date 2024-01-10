@@ -21,6 +21,8 @@ nav {
     right: 0;
     left: 0;
 
+    z-index: 10;
+
     background-color: #0084fd;
 }
 
@@ -256,7 +258,15 @@ nav {
 }
 
 .text-testimonial h2 {
+    text-align: center;
+    color: #9792e4;
     margin-bottom: 40px;
+}
+
+.text-testimonial p {
+    text-align: center;
+    line-height: 2em;
+    font-weight: 600;
 }
 
 .testimonial-cards {
@@ -279,7 +289,7 @@ nav {
 
     width: 100%;
     height: auto;
-    padding: 30px 10px;
+    padding: 30px 20px;
 
     border-radius: 50px;
 
@@ -287,13 +297,21 @@ nav {
     color: white;
 }
 
-.t-card .profile {
+.t-card .square {
     height: 200px;
     width: 200px;
 
     border-radius: 50%;
 
-    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+
+.t-card .profile {
+    height: 200px;
+
+    position: absolute;
+    left: -25%;
 }
 
 .t-text {
@@ -305,6 +323,22 @@ nav {
 
     width: auto;
     height: auto;
+
+    font-size: 16px;
+}
+
+.t-cit {
+    text-align: center;
+    line-height: 2em;
+}
+
+.fa-quote-left {
+    padding-top: -20px;
+}
+
+.t-name {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* ------------------------- */
