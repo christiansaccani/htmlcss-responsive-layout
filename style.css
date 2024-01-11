@@ -299,16 +299,6 @@ nav {
     width: 200px;
 
     border-radius: 50%;
-
-    overflow: hidden;
-    position: relative;
-}
-
-.t-card .profile {
-    height: 200px;
-
-    position: absolute;
-    left: -25%;
 }
 
 .t-text {
@@ -755,5 +745,9 @@ nav {
         font-size: 15px;
         text-decoration: none;
         color: white;
+    }
+
+    .double-card img {
+        align-self: flex-end;
     }
 }
