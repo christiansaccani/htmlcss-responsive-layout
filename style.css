@@ -656,7 +656,7 @@ nav {
     }
 
     .about-us-info {
-        align-self: flex-end;
+        align-self: flex-start;
         width: calc(100% / 3 * 1.5);
     }
 }
@@ -724,7 +724,6 @@ nav {
 
     .about-us-info {
         width: calc(100% / 3);
-        align-self: flex-start;
     }
 
     /* ------------------------- */
