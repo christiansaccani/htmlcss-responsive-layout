@@ -299,6 +299,7 @@ nav {
     width: 200px;
 
     border-radius: 50%;
+    object-fit: cover;  /* per adattare immagini rettangolari */
 }
 
 .t-text {
